@@ -1,0 +1,15 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div [ngStyle] ="{'color': color}">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <hero-parent>loading</hero-parent>
+
+<div>
+  <input [(ngModel)]="color" />
+  <br>
+  you clicked {{counter}} times
+  <button (click) ="incr()">Click me </button> 
+
+</div>
+</div>
